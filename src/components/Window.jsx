@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import './Window.css';
 import SideBar from "./SideBar";
 import Header from './Header';
 
@@ -6,13 +7,17 @@ const Window = () => {
     return (
 
 
-        <div className="container1">
+        <div className="container">
 
-                <Header className="Header"/>
-                <SideBar className="SideBar"/>
+                <Header/>
+
+                <div className="wrapper">
+                <SideBar/>
                 <div className="wrap_outlet">
                 <Outlet className="Outlet"/>
                 </div>
+                </div>
+                
 
         {/* //     <div className="wrap_header">
         //     <Header className="Header"/>

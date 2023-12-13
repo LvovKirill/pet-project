@@ -5,8 +5,15 @@ function Header() {
     <div className='header'>
         <div className="container3">
 
-            <span>Львов К.О. </span>
-            <span>Львов К.О. </span>
+        <div className='logo'>
+            <img src='logo192.png' alt='img'/>
+            <span>PetProject</span>
+        </div>
+
+        <div className='user'>
+            <img src='ava.jpg' alt='img'/>
+            <span>Львов К.О.</span>
+        </div>
 
         </div>
     </div>

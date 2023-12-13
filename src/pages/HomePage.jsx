@@ -1,12 +1,20 @@
 import './HomePage.css';
-import {Link} from "react-router-dom"
+import ChartBlock from '../components/ChartBlock/ChartBlock'
 
 const HomePage = () => {
   return (
-  <>
-  <h1>HomePagem</h1>
-  <Link to='/blog'>блог</Link>
-  </>
+  <div className='home_page'>
+    <div className='home_page_c1'>
+  <ChartBlock/>
+  <ChartBlock/>
+    </div>
+
+    <div className='home_page_c1'>
+  <ChartBlock/>
+  <ChartBlock/>
+    </div>
+    
+  </div>
   );
 }
 

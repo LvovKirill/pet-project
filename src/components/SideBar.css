@@ -46,8 +46,8 @@ position: relative;
   /* display: flex;
   flex-direction: row;
   align-items: center; */
-  color: rgb(37, 177, 37);
-  background-color:  rgb(176, 176, 176);
+  color: rgb(0, 119, 255);
+  background-color:  rgba(176, 176, 176, 0.47);
 }
 
 .dicoration{
@@ -64,7 +64,7 @@ position: relative;
 
 .bg{
   display: flex;
-  background-color: rgba(255, 255, 255, 0.481);
+  background-color: rgb(255, 255, 255);
   border-right: 1px solid rgb(212, 212, 212);
   left: 0px;
   top: 60px;

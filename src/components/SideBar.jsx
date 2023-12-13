@@ -1,6 +1,7 @@
 import './SideBar.css';
-import { FaBeer } from 'react-icons/fa';
+// import { FaBeer } from 'react-icons/fa';
 import {Link} from "react-router-dom"
+import { BsBarChartFill, BsBookmarkFill,BsCalendarEventFill, BsCartFill,BsFillHouseFill,BsFillMapFill } from "react-icons/bs";
 
 function SideBar() {
   return (
@@ -10,17 +11,17 @@ function SideBar() {
         <span>О пользователе</span>
 
 <li>
-<FaBeer />
+<BsFillHouseFill />
 <Link to='/home'>главная</Link>
 </li>
 
 <li>
-<FaBeer />
+<BsCartFill />
 <Link to='/about'>О нас</Link>
 </li>
 
 <li>
-<FaBeer />
+<BsFillMapFill />
 <Link to='/blog'>блог</Link>
 </li>
 
@@ -29,17 +30,17 @@ function SideBar() {
 <span>О компании</span>
 
 <li>
-<FaBeer />
+<BsCalendarEventFill />
 <Link to='/home'>главная</Link>
 </li>
 
 <li>
-<FaBeer />
+<BsBookmarkFill />
 <Link to='/about'>О нас</Link>
 </li>
 
 <li>
-<FaBeer />
+<BsBarChartFill />
 <Link to='/blog'>блог</Link>
 </li>
 
