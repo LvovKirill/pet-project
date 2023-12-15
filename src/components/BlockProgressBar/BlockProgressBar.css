@@ -1,0 +1,21 @@
+.block_progress_bar{
+    background-color: white;
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 10px;
+    position: relative;
+    /* width: 100px;
+    height: 100px; */
+}
+
+.block_progress_bar_c1{
+    display: flex;
+    flex-direction: column;
+}
+
+.black_text{
+    color: black;
+}
+
+.block_progress_bar .gray_text{
+    color: gray;
+}

@@ -2,6 +2,7 @@ import './SideBar.css';
 // import { FaBeer } from 'react-icons/fa';
 import {Link} from "react-router-dom"
 import { BsBarChartFill, BsBookmarkFill,BsCalendarEventFill, BsCartFill,BsFillHouseFill,BsFillMapFill } from "react-icons/bs";
+import ItemSB from './ItemSB';
 
 function SideBar() {
   return (
@@ -12,8 +13,10 @@ function SideBar() {
 
 <li>
 <BsFillHouseFill />
-<Link to='/home'>главная</Link>
+<Link to='/home'>Профиль</Link>
 </li>
+
+<ItemSB link="/home" nameItem="Профиль"/>
 
 <li>
 <BsCartFill />
@@ -23,6 +26,11 @@ function SideBar() {
 <li>
 <BsFillMapFill />
 <Link to='/blog'>блог</Link>
+</li>
+
+<li>
+<BsFillMapFill />
+<Link to='/analytics'>Аналитика</Link>
 </li>
 
 <div className='dicoration'></div>

@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import './Window.css';
-import SideBar from "./SideBar";
+import SideBar from "./SideBar/SideBar.jsx";
 import Header from './Header';
 
 const Window = () => {
