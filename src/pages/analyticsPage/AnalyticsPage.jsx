@@ -1,5 +1,6 @@
 import './AnalyticsPage.css';
-import ChartBlock from '../components/ChartBlock/ChartBlock'
+import ChartBlock from '../../components/ChartBlock/ChartBlock'
+import { LineChart } from '../../components/Charts/LineChart/LineChart';
 
 const AnalyticsPage = () => {
   return (
@@ -14,6 +15,13 @@ const AnalyticsPage = () => {
   <ChartBlock/>
   <ChartBlock/>
     </div>
+
+    <div className='analytics_page_c1'>
+  <LineChart/>
+  <ChartBlock/>
+    </div>
+
+
     
   </div>
   );

@@ -16,7 +16,7 @@ function SideBar() {
 <Link to='/home'>Профиль</Link>
 </li>
 
-<ItemSB link="/home" nameItem="Профиль"/>
+<ItemSB link="/home" nameItem="Профиль" icon={<BsFillHouseFill />}/>
 
 <li>
 <BsCartFill />

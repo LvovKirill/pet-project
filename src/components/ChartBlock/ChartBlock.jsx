@@ -1,6 +1,7 @@
 import React from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
+// import { Bar } from 'react-chartjs-2';
 import { BsThreeDotsVertical } from 'react-icons/bs';
 import './ChartBlock.css'
 
@@ -24,16 +25,15 @@ const data = {
   ],
 };
 
-function ChartBlock() {
+
+function ChartBlock(props) {
   return (
     <div className='chart_block'>
       <span className='title'>Динамика выручки за период, руб.</span>
       <div className='btn'>
       <BsThreeDotsVertical/>
       </div>
-
       <Pie className="bar_chart" data={data} />
-    
     </div>
     
     

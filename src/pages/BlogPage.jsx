@@ -33,6 +33,7 @@ import GoogleMapReact from 'google-map-react'
 
     return (
       <GoogleMapReact
+      className="map"
       // bootstrapURLKeys={{ key: ;}}
       // defaultCenter={this.props.center}
       // defaultZoom={this.props.zoom}

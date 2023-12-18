@@ -26,8 +26,9 @@ h1{
     padding-top: 20px;
     margin-left: 50px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-items: start;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-items: stretch;
     justify-content: start;
     gap: 20px;
     
@@ -59,10 +60,19 @@ h1{
 }
 
 .home_page_img{
+    width: 250px;
     height: 300px;
-    width: 200px;
+    /* max-height: 200px;
+    max-width: 100px; */
     border-radius: 10px;
+    /* justify-self: stretch; */
     box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.431);
+}
+
+
+.home_page_c3 .input[type=file]{
+    
+    
 }
 
 .gray_text{
@@ -74,42 +84,23 @@ h1{
 }
 
 .home_page_c3{
+    position: relative;
     display: flex;
+    max-width: 250px;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    justify-self: stretch;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-.home_page_c3 btn{
-    margin-block: 20px;
-    padding: 10px;
-    color: black;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid white;
-    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.431);
-    text-align: center;
-}
-
-.home_page_c3 btn:hover{
-    margin-block: 20px;
-    padding-block: 10px;
-    color: black;
-    background-color: rgb(240, 240, 240);
-    border-radius: 20px;
-    border: 1px solid rgb(240, 240, 240);
-    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.431);
-}
-
 .BlockProgressBar1{
     padding-left: 20px;
-    margin-left: 20px;
     grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
 }
@@ -117,7 +108,17 @@ h1{
 .BlockProgressBar2{
     padding-left: 20px;
     grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
+.ChartBlock{
+    /* width: 100; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+

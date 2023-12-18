@@ -1,0 +1,35 @@
+
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    padding-block: 10px;
+
+    
+}
+
+.register_form{
+    padding-block: 50px;
+    padding-inline: 100px;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.431);
+    border-radius: 20px;
+}
+
+.register_btn{
+    background-color: #0099ff;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
