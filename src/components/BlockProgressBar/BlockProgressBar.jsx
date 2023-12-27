@@ -1,4 +1,6 @@
 import './BlockProgressBar.css';
+import { CircularProgressbar } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 const BlockProgressBar = () => {
   return (
@@ -6,12 +8,11 @@ const BlockProgressBar = () => {
     <div className='block_progress_bar_c1'>
         <span className='black_text'>Application</span>
         <span className='gray_text'>27 Agu 2023</span>
-
-        <div class="progress-bar">
-        {/* <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">75%</progress> */}
-        </div>
-
     </div>
+        
+        <div class="progress-bar">
+        <CircularProgressbar trail="#f0f"  strokeWidth={10} value={20} text={`${20}%`} />
+        </div>
 
   </div>
   );

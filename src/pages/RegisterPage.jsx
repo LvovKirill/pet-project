@@ -1,10 +1,14 @@
 import './RegisterPage.css';
 
-const RegisterPage = () => {
+const RegisterPage = (props) => {
 
-    // function onClick(){
-    //     setIsAvtorizate(true)
-    // }
+
+    function onClick(){
+        props.setIsAvtorizate(true)
+        props.isAvtorizate = true
+        console.log("ooooooooonnnnnnnn")
+    }
+
 
     return (
     <div className='first_c'>
@@ -27,7 +31,7 @@ const RegisterPage = () => {
         </div>
             
             
-            <button className='register_btn' >отправить</button>
+        <button className='register_btn' onClick={onClick}>отправить</button>
           
         </form>
     </div>

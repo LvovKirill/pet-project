@@ -5,13 +5,14 @@ import AboutPage from './pages/AboutPage';
 import BlogPage from './pages/BlogPage';
 import AnalyticsPage from './pages/analyticsPage/AnalyticsPage';
 // import SideBar from './components/SideBar';
-import Window from './components/Window';
+import Window from './components/Window/Window';
 import RegisterPage from './pages/RegisterPage';
 import { useState } from 'react';
 
 function App() {
   let [isAvtorizate, setIsAvtorizate] = useState(true)
   // if (isAvtorizate){
+
   return(
   <>
   <Routes>

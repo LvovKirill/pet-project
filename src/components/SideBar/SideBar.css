@@ -21,10 +21,11 @@ position: relative;
   flex-direction: row;
   text-decoration: none;
   align-items: center;
-  padding-left: 20px;
+  padding-inline: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   color: rgb(199, 199, 199);
+  margin-left: 10px;
 }
 
 
@@ -48,6 +49,8 @@ position: relative;
   align-items: center; */
   color: rgb(0, 119, 255);
   background-color:  rgba(176, 176, 176, 0.47);
+  border-radius: 10px;
+  /* margin-inline: 10px; */
 }
 
 .dicoration{

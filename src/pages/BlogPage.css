@@ -1,4 +1,58 @@
-.map{
+
+
+
+
+.test-container{
+    display: grid;
+    gap: 20px;
+    width: 1000px;
     height: 500px;
-    width: 500px;
+}
+
+.c1{
+    background-color: brown;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.c2{
+    background-color: brown;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.c3{
+    background-color: brown;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.c4{
+    background-color: brown;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.c5{
+    background-color: brown;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.c6{
+    background-color: brown;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }

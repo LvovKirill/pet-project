@@ -1,0 +1,46 @@
+.line-chart-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.431);
+    height: 100%;
+}
+
+.line-chart-header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.line-chart-chart{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.line-chart-btn{
+    /* position: absolute;
+    right: 10px; */
+}
+
+.title{
+    /* position: absolute;
+    left: 10px; */
+}
+
+.line-chart-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+
+

@@ -2,8 +2,7 @@ import React from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 // import { Bar } from 'react-chartjs-2';
-import { BsThreeDotsVertical } from 'react-icons/bs';
-import './ChartBlock.css'
+// import { BsThreeDotsVertical } from 'react-icons/bs';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -26,18 +25,17 @@ const data = {
 };
 
 
-function ChartBlock(props) {
+function PieChart(props) {
   return (
-    <div className='chart_block'>
-      <span className='title'>Динамика выручки за период, руб.</span>
-      <div className='btn'>
-      <BsThreeDotsVertical/>
-      </div>
-      <Pie className="bar_chart" data={data} />
-    </div>
-    
-    
+    // <div className='chart-block'>
+    //   <span className='chart-block-title'>Динамика выручки за период, руб.</span>
+    //   <button className='chart-block-btn'>
+    //   <BsThreeDotsVertical className='pie-chart-btn'/>
+    //   </button>
+      <Pie className="chart-block-chart" data={data} />
+    // </div>
+
   );
 }
 
-export default ChartBlock;
+export default PieChart;
